@@ -93,3 +93,7 @@ weight = 3
 icon = "fa-twitter-square"
 url = "https://twitter.com/"
 weight = 4
+
+[mediaTypes]
+  [mediaTypes."image/svg+xml"]
+    suffixes = ["svg"]

@@ -26,11 +26,11 @@ window.addEventListener("DOMContentLoaded", function () {
 // helper function for sending an AJAX request
 
 function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
+  var xhr = new XMLhttpsRequest();
   xhr.open(method, url);
   xhr.setRequestHeader("Accept", "application/json");
   xhr.onreadystatechange = function () {
-    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+    if (xhr.readyState !== XMLhttpsRequest.DONE) return;
     if (xhr.status === 200) {
       success(xhr.response, xhr.responseType);
     } else {

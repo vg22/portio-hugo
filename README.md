@@ -23,7 +23,7 @@ Checkout the live demo [here](https://portio-hugo.staticmania.com/)
 
    cp -a themes/portio/exampleSite/\* .
 
-3. Build your site with `hugo serve` and see the result at `http://localhost:1313/`.
+3. Build your site with `hugo serve` and see the result at `https://localhost:1313/`.
 
 **Make sure to use Hugo Extended to serve/build your site, as else the SASS/SCSS won't be rendered correctly**
 
