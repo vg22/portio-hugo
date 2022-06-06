@@ -113,7 +113,7 @@
           <h3>Contact Form</h3>
         </div>
         <div class="contact-form-input">
-          <form id="contact-form" action="{{ .Site.Params.formspreeURL }}" method="POST" data-netlify="true">
+          <form id="contact-form" action="{{ .Site.Params.formspreeURL }}" method="POST" data-netlify="true" onsubmit="submit">
             <input type="hidden" name="contact-form" value="contact-form"/>
 
             <div class="form-row">
